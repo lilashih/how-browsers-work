@@ -1,7 +1,7 @@
 # Parsing General
 Parsing a document means translating it to a structure the code can use. 
 
-### The Result of Parsing  
+The Result of Parsing  
 Is usually a tree of nodes that represent the structure of the document. This is called a **parse tree** or a **syntax tree**.
 
 ## Grammars
@@ -53,7 +53,7 @@ We can separate the parses to two types:
     - HTML
 
 ## Parsing - Parser and Lexer Combination
-#### Two Sub Processes and Two Components
+### Two Sub Processes and Two Components
 Parsing can be separated into two sub processes:  
 1. Lexical Analysis  
     - It is the process of breaking the input into tokens. 
@@ -70,13 +70,13 @@ And there are the components of parser for **lexical analysis** & **syntax analy
 
 ![Figure : from source document to parse trees](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image011.png) 
 
-#### The Parsing Process
+### The Parsing Process
 The parsing process is iterative. 
 1. The parser will usually ask the lexer for a new token and try to match the token with one of the syntax rules. 
 2. If a rule is matched, a node corresponding to the token will be added to the parse tree and the parser will ask for another token. 
 3. If no rule matches, the parser will store the token internally, and keep asking for tokens until a rule matching all the internally stored tokens is found. 
 
-##### Syntax Errors  
+### Syntax Errors  
 If no rule is found then the parser will raise an exception. This means the document was not valid and contained syntax errors.
 
 
@@ -86,15 +86,6 @@ In many cases the parse tree is not the final product. Parsing is often used in 
 An example is compilation. The compiler that compiles source code into machine code first parses it into a parse tree and then translates the tree into a machine code document.
 
 ![Figure : compilation flow](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image013.png) 
-
-
-## Types of Parsers
-There are two types of parsers: 
-1. Top Down Parser
-    - Examining the high level structure of the syntax and try to find a rule match.
-2. Bottom Up Parser
-    - Starting from the low level rules until high level rules are met.
-
 
 ## Generating Parsers Automatically
 There are tools that can generate a parser. You feed them the grammar of your language

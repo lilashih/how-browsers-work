@@ -124,12 +124,6 @@ Let's see a simple example:
 ![Figure : Tokenizing the example input](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image019.png)
  
 ### Tree Construction
-Render Tree
-- Render tree generated while DOM tree is constructed.
-- Visual elements in the order which they are going to displayed
-- Elements in the render tree are called renderer or render objects
-- Render object is a rectangle
-
 #### Tree Construction Algorithm
 When the parser is created the Document object is created. During the tree construction stage the root of DOM tree will be modified and elements will be added to it. Each node emitted by the tokenizer will be processed by the tree constructor. 
 
@@ -173,7 +167,7 @@ Receiving the end of file token will end the parsing.
 
 ![Figure : tree construction of example html](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image022.gif)
 
-### Actions When The Parsing Is Finished
+## Actions When The Parsing Is Finished
 At this stage the browser will mark the document as interactive and start parsing scripts that are in "deferred" mode: those that should be executed after the document is parsed. The document state will be then set to "complete" and a "load" event will be fired.
 
 ## Browsers' Error Tolerance
