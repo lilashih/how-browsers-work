@@ -5,7 +5,7 @@ The job of the HTML parser is to parse the HTML markup into a parse tree.
 HTML definition is in a DTD format, the specifications of vocabulary and syntax in DTD are defined by the W3C organization, but it is not a context free grammar.
 
 ### Not A Context Free Grammar
-Soft Syntax  
+- Soft Syntax  
 The HTML is more **forgiving**: it lets you omit certain tags, or sometimes omit start or end tags, and so on.
 
 This is the main reason why HTML is so popular: it forgives your mistakes and makes life easy for the web author. On the other hand, it makes it difficult to write a formal grammar. 

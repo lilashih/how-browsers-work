@@ -12,3 +12,8 @@
 4. [Render Tree Construction](4-0-RenderTreeConstruction.md)
     - [The Render Tree Relation to The DOM Tree](4-1-TheRenderTreeRelationToTheDOMTree.md)
     - [The Flow of Constructing The Tree](4-2-TheFlowOfConstructingTheTree.md)
+    - [Style Computation](4-3-StyleComputation.md)
+5. [Layout](5-Layout.md)
+6. [Painting](6-Painting.md)
+7. [Dynamic changes](7-DynamicChanges.md)
+8. [The Rendering Engine's Threads](8-TheRenderingEnginesThreads.md)

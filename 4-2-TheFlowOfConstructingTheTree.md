@@ -13,7 +13,7 @@
 - Node insertion to the DOM tree calls the new node attach method.
 
 ## Viewport
-Viewport is the dimensions of root render object: 
+Viewport is the dimensions of root render object.
 
 ### Root Render Object
 - Processing the html and body tags results in the construction of the render tree root. 

@@ -32,7 +32,7 @@ class RenderObject{
 - A renderer knows how to **layout** and **paint** itself and its children.
 - The **rectangular area** of renderer usually corresponding to a node's CSS box, as described by the CSS2 spec. It includes geometric information like width, height and position.
 
-#### Type of Renderer
+### Type of Renderer
 What type of renderer should be created for a DOM node is according to the **display** value of the style attribute.
 
 Here is WebKit code:
