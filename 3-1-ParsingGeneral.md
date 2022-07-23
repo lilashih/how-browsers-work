@@ -68,7 +68,7 @@ And there are the components of parser for **lexical analysis** & **syntax analy
 2. The Parser 
     - Constructing the parse tree by analyzing the document structure according to the **syntax rules**. 
 
-![Figure : from source document to parse trees](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image011.png) 
+![Figure : from source document to parse trees](/images/5.png) 
 
 ### The Parsing Process
 The parsing process is iterative. 
@@ -85,7 +85,7 @@ In many cases the parse tree is not the final product. Parsing is often used in 
 
 An example is compilation. The compiler that compiles source code into machine code first parses it into a parse tree and then translates the tree into a machine code document.
 
-![Figure : compilation flow](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image013.png) 
+![Figure : compilation flow](/images/6.png) 
 
 ## Generating Parsers Automatically
 There are tools that can generate a parser. You feed them the grammar of your language

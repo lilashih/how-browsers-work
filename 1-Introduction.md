@@ -24,7 +24,7 @@ Strangely enough, the browser's user interface is not specified in any formal sp
 ## The Main Components
 The browser's main components are:
 
-![Figure : Browser components](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/layers.png)
+![Figure : Browser components](/images/1.png)
 
 1. The user interface  
     - Every part of the browser display except the window where you see the requested page.

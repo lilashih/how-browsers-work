@@ -38,7 +38,7 @@ For example:
 
 This markup would be translated to the following DOM tree:
 
-![Figure : DOM tree of the example markup](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image015.png)
+![Figure : DOM tree of the example markup](/images/7.png)
 
 The tree contains DOM nodes means the tree is constructed of elements that implement one of the DOM interfaces. Browsers use concrete implementations that have other attributes used by the browser internally.
  
@@ -62,7 +62,7 @@ The algorithm consists of two stages:
 - HTML **tokens** are start tags, end tags, attribute names and attribute values.
 - The **tokenizer** recognizes the token, gives it to the tree constructor, and consumes the next character for recognizing the next token, and so on until the end of the input.
 
-![Figure : HTML parsing flow (taken from HTML5 spec)](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image017.png)
+![Figure : HTML parsing flow (taken from HTML5 spec)](/images/8.png)
 
 #### The Tokenization Algorithm
 The algorithm's output is an HTML token. The algorithm is expressed as a state machine. Each state consumes one or more characters of the input stream and updates the next state according to those characters. 
@@ -121,7 +121,7 @@ Let's see a simple example:
     5. Emit new a token and back to Data State
 
 
-![Figure : Tokenizing the example input](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image019.png)
+![Figure : Tokenizing the example input](/images/9.png)
  
 ### Tree Construction
 #### Tree Construction Algorithm
@@ -165,7 +165,7 @@ The input to the tree construction stage is a sequence of tokens from the tokeni
 
 Receiving the end of file token will end the parsing.
 
-![Figure : tree construction of example html](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image022.gif)
+![Figure : tree construction of example html](/images/10.gif)
 
 ## Actions When The Parsing Is Finished
 At this stage the browser will mark the document as interactive and start parsing scripts that are in "deferred" mode: those that should be executed after the document is parsed. The document state will be then set to "complete" and a "load" event will be fired.

@@ -52,7 +52,7 @@ Firefox has two extra trees for easier style computation:
 2. The Rule Tree
 
 ### The Style Context Tree
-![Figure : Firefox style context tree](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image035.png)
+![Figure : Firefox style context tree](/images/13.png)
 
 The style contexts contain end values. The values are computed by applying all the matching rules in the correct order and performing manipulations that transform them from logical to concrete values. 
 
@@ -121,10 +121,10 @@ To simplify things let's say we need to fill out only two structs:
     - Contains the four sides.
 
 The resulting rule tree will look like this (the nodes are marked with the node name: the number of the css rule they point at):
-![Figure : The rule tree](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image027.png)
+![Figure : The rule tree](/images/14.png)
 
 The context tree will look like this (node name: rule node they point to):
-![Figure : The context tree](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image029.png)
+![Figure : The context tree](/images/15.png)
 
 Suppose we parse the HTML and get to the second &lt;div&gt; tag. We will match the rules and discover that the matching rules for the &lt;div&gt; are 1, 2 and 6. This means there is already an existing path in the tree that our element can use, and we just need to add another node to it for rule 6 (node F in the rule tree).
 We will create a style context and put it in the context tree. The new style context will point to node F in the rule tree.

@@ -26,4 +26,4 @@ Viewport is the dimensions of root render object.
 - WebKit calls it RenderView. 
 - The rest of the tree is constructed as a DOM nodes insertion.
 
-![Figure : The render tree and the corresponding DOM tree (3.1). The "Viewport" is the initial containing block. In WebKit it will be the "RenderView" object](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/image025.png)
+![Figure : The render tree and the corresponding DOM tree (3.1). The "Viewport" is the initial containing block. In WebKit it will be the "RenderView" object](/images/12.png)

@@ -76,4 +76,4 @@ WebKit uses Flex and Bison parser generators to create parsers automatically fro
 
 In both cases each CSS file is parsed into a StyleSheet object. Each object contains CSS rules. The CSS rule objects contain selector and declaration objects and other objects corresponding to CSS grammar.
 
-![Figure : parsing CSS](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image023.png)
+![Figure : parsing CSS](/images/11.png)

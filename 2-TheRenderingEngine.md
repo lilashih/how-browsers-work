@@ -16,7 +16,7 @@ After that, **this is the basic flow of the rendering engine**:
 3. Layout
 4. Paint
 
-![Figure : Rendering engine basic flow](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/flow.png)
+![Figure : Rendering engine basic flow](/images/2.png)
 
 #### Parsing HTML to construct the DOM tree
 The rendering engine will start parsing the HTML document and convert elements to **DOM nodes in a tree** called **the content tree**. 
@@ -42,7 +42,7 @@ Parts of the content will be parsed and displayed, while the process continues w
 WebKit is an open source rendering engine which started as an engine for the Linux platform and was modified by Apple to support Mac and Windows.
 
 ### The Main Flow of WebKit
-![Figure : WebKit main flow](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/webkitflow.png)
+![Figure : WebKit main flow](/images/3.png)
 
 ### The Terms
 1. Attachment
@@ -56,7 +56,7 @@ WebKit is an open source rendering engine which started as an engine for the Lin
 ## Gecko
 
 ### The Main Flow of Gecko
-![Figure : Mozilla's Gecko rendering engine main flow](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/image008.jpg)
+![Figure : Mozilla's Gecko rendering engine main flow](/images/4.jpg)
 
 ### The Terms
 1. Content Sink

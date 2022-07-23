@@ -25,7 +25,7 @@ A renderer only mark as **dirty** need layout, there are two flags:
 - When renderers are dirty. 
     - Extra content came from the network and was added to the DOM tree.
 
-![Figure : Incremental layout–only dirty renderers and their children are laid out](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/reflow.png)
+![Figure : Incremental layout–only dirty renderers and their children are laid out](/images/16.png)
 
 ## Asynchronous and Synchronous Layout
 ### Asynchronous Layout
